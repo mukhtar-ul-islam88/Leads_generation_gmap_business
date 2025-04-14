@@ -42,7 +42,7 @@ Before running this project, ensure you have the following installed:
         ```
 3. Navigate to the project directory:
    ```bash
-   cd Leads_generation_gmap_business
+   cd google_map_scraper
    ```
 4. Install the dependencies:
    ```bash
@@ -58,7 +58,7 @@ Type your search keyword (e.g., restaurant India) in the input box.
 
 
 ```bash
-from google_maps_scraper import GoogleMapsScraper
+from google_map_scraper import GoogleMapsScraper
 
 scraper = GoogleMapsScraper()
 results = scraper.scrape("CA in Hyderabad India")
