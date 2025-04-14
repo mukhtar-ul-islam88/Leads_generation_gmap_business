@@ -42,7 +42,7 @@ Before running this project, ensure you have the following installed:
         ```
 3. Navigate to the project directory:
    ```bash
-   cd Leads_generation_gmap_business
+   cd google_map_scraper
    ```
 4. Install the dependencies:
    ```bash
