@@ -36,15 +36,16 @@ Before running this project, ensure you have the following installed:
    
    ```
 
-2.   ```bash
+2. **create the environment**
+   ```bash
         python -m venv venv
         source venv/bin/activate  # On Windows: venv\Scripts\activate      
-        ```
-3. Navigate to the project directory:
+    ```
+3. **Navigate to the project directory:**
    ```bash
    cd google_map_scraper
    ```
-4. Install the dependencies:
+4. **Install the dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -58,7 +59,7 @@ Type your search keyword (e.g., restaurant India) in the input box.
 
 
 ```bash
-from google_map_scraper import GoogleMapsScraper
+from google_map_scraper.scraper import GoogleMapsScraper
 
 scraper = GoogleMapsScraper()
 results = scraper.scrape("CA in Hyderabad India")
