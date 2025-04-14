@@ -58,7 +58,7 @@ Type your search keyword (e.g., restaurant India) in the input box.
 
 
 ```bash
-from google_maps_scraper import GoogleMapsScraper
+from google_map_scraper import GoogleMapsScraper
 
 scraper = GoogleMapsScraper()
 results = scraper.scrape("CA in Hyderabad India")
