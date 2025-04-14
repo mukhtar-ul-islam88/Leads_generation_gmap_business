@@ -1,5 +1,0 @@
-selenium-wire
-selenium
-webdriver_manager
-blinker
-streamlit

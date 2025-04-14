@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='google-maps-scraper',
+    name='google-map-scraper',
     version='0.1.0',
     author='Mukhtar ul Islam',
     author_email='Mukhtarulislam88@hotmail.com',
